@@ -1,3 +1,7 @@
+# Visão Computacional e Deep Learning
+
+# Libs
+
 import cv2
 from mtcnn.mtcnn import MTCNN
 from cv2 import rectangle, circle
@@ -5,7 +9,7 @@ from cv2 import imshow, waitKey, destroyAllWindows, VideoCapture
 
 
 # Captura o video da camera
-cap = VideoCapture(2)
+cap = VideoCapture(0)
 
 # verifique se a captura esta aberta.
 if (cap.isOpened() == False):
